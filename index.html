@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-with, initial-scale=1, user-scalable=no">
     <title>Shivaya Developers</title>
-
     <!-- Bootstrap css and js -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/formatting.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/lato.css">
+    <link rel="stylesheet" href="css/roboto.css">
+    <link rel="stylesheet" href="css/raleway.css">
 </head>
+
 <body>
-    Website is under development.
-    <h4>You can view the github account : </h4><a href="http://github.com/ShivayaDevs"> <h4 align="center">github.com/ShivayaDevs</h4></a><br><br>
-    <img src="images/clashhacks-photo.jpg" width="300px" >
+ <!-- NavBar goes here -->
+ <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+     <div class="navbar-header">
+         <a class="navbar-brand" href="#">
+           Shivaya Developers
+         </a>
+     </div>
+     <div class="navbar-collapse collapse" >
+       <ul class="nav navbar-nav navbar-right">
+         <li class="active" id="home-tab"><a href="#">HOME</a></li>
+         <li id="about-tab"><a href="#">ABOUT</a></li>
+         <li id="work-tab"><a href="#">WORK</a></li>
+         <li id="latest-tab"><a href="#">LATEST</a></li>
+         <li id="team-tab"><a href="#">TEAM</a></li>
+         <li id="contact-tab"><a href="#">CONTACT</a></li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+
+
+
+ <!-- Main Div -->
+ <div class="container-fluid red-bg screen-height" >
+     <br><br><br><br><br><br>
+     <div class="container-fluid center-text">
+         <p class="white-text largest">Let's create together </p>
+         <br><br><br>
+         <div style="display: flex; width: 50%; margin:0 auto;">
+            <div class="container">
+                <img src="images/profiles/android.svg" width="75px" height="75px">
+                <p class="white-text">Android</p>
+            </div>
+            <div class="container">
+                <img src="images/profiles/code.svg" width="75px" height="75px">
+                <p class="white-text">Programming</p>
+            </div>
+            <div class="container">
+                <img src="images/profiles/web.svg" width="75px" height="75px">
+                <p class="white-text">Web Development</p>
+            </div>
+            <div class="container">
+                <img src="images/profiles/hackathon.svg" width="75px" height="75px">
+                <p class="white-text">Hackathons</p>
+            </div>
+         </div>
+     </div>
+ </div>
 </body>
 </html>

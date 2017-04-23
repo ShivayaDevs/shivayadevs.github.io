@@ -1,0 +1,28 @@
+.center-text{
+    text-align: center;
+}
+
+.white-text{
+    color: white;
+}
+.largest{
+    font-weight: 500;
+    font-size: 64px;
+}
+.red-bg{
+    background-color: #FF4E5B;
+    /*#bf3a44*/
+    /*#2d2f31*/
+}
+.light-red{
+    color: #bf3a44;
+}
+.screen-height{
+    height: 600px;
+}
+
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
